@@ -1,0 +1,14 @@
+# The original game is not in the repository: put your own copy of the DOS files into original/.
+/original/*
+!/original/README.md
+!/original/dosbox.conf
+# Scratch locations for local experiments.
+/game/
+/extracted/
+/decomp/
+# local reverse-engineering artefacts (regenerate with tools/)
+*.asm
+*.bin
+__pycache__/
+*.pyc
+!remake/data/*.bin
